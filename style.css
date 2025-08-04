@@ -1,0 +1,70 @@
+*{
+    padding:0 ;
+    margin: 0; 
+}
+body{
+    background-image: linear-gradient(rgb(205, 21, 147),#160512);
+    height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+header{
+    width: 95%;
+    position: fixed;
+    z-index: 100;
+    /* عشان اخليهم جمب بعض */
+    display: flex;  
+    /* عشان اخليهم يبعضو عن بعض واحده ف اليمين وواحده ف الشمال */
+    justify-content: space-between;
+    /* اخلي النص ينزل تحت  */
+    align-items: center;
+    margin: 30px;
+}
+ header .logo{
+    font-size: 30px;
+    text-transform: uppercase;
+ }
+ ul li{
+display: inline-block;
+padding: 8px;
+margin: 10px; 
+   
+ }
+ 
+
+ header ul li a:hover{
+    padding: 10px;
+    color:black ;
+    background-color: white;
+    border-radius: 5px;
+ }
+ .main{
+    position: relative;
+    height: 100vh; 
+    width: 100%;
+   overflow: hidden;
+ }  
+
+ .main img{
+    position: absolute; 
+    width: 100%;
+    height: 100vh;
+    
+    
+ }
+ #moon{
+    /* عشان يعمل ظل للقمر */
+    mix-blend-mode: screen;
+    object-fit: cover;
+    
+    
+   
+    
+ }
+
+
+               
